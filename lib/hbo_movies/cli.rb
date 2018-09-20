@@ -1,5 +1,5 @@
 module HboMovies
-  module Movie
-    puts "hello world"
+  module CLI
+    puts "I am CLI"
   end
 end

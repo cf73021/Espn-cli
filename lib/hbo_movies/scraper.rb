@@ -1,7 +1,5 @@
-require "hbo_movies/version"
-
 module HboMovies
   module Scraper
-    # Your code goes here...
+    puts "I am Scraper"
   end
 end
