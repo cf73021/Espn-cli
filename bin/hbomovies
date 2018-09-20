@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/hbomovies'
+require_relative '../lib/hbo_movies'
 
-Hbomovies::CLI.new.call
+HboMovies::CLI.new.call

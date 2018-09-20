@@ -1,4 +1,4 @@
-require_relative '../config/environment'
-
 module HboMovies
 end
+
+require_relative '../config/environment'
