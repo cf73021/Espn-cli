@@ -39,7 +39,8 @@ class EspnHeadlines::CLI
   def print_headline(headline)
     puts ""
     puts "----------- #{headline.headline} -------------"
-    puts "-- URL: http://www.espn.com#{headline.url} --"
+    puts "-- URL: #{headline.url} --"
+    puts "-- AUTHOR: #{headline.author} --"
   end
 
   def print_headlines
