@@ -1,13 +1,13 @@
-require_relative './lib/hbo_movies/version'
+require_relative './lib/espn_headlines/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "hbomovies-cli"
-  spec.version       = HboMovies::VERSION
+  spec.name          = "espn-cli"
+  spec.version       = EspnHeadlines::VERSION
   spec.authors       = ["'Chris Franklin'"]
   spec.email         = ["'cf73021@gmail.com'"]
 
-  spec.summary       = "A list of the movies available on HBO"
-  spec.description   = "Provides an orderly list of all of the movies you can watch on HBO right now."
+  spec.summary       = "A list of the headlines on ESPN"
+  spec.description   = "Provides an orderly list of all headlines on the front page of ESPN."
   spec.license       = "MIT"
 
   spec.add_development_dependency "bundler", "~> 1.10"

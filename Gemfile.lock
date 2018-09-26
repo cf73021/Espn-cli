@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hbomovies-cli (0.2.0)
+    espn-cli (0.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -37,7 +37,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.10)
-  hbomovies-cli!
+  espn-cli!
   nokogiri
   pry
   rake (~> 10.0)
