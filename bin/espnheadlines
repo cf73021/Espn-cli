@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/espn_headlines'
+
+EspnHeadlines::CLI.new.call
