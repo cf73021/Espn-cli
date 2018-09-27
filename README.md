@@ -1,8 +1,5 @@
 # ESPN::Cli
-HELLO WORLD
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/espn/cli`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+The ESPN::CLI gem was built to display the top 10 headlines on the front page of ESPN.com for you. Upon seeing the headlines, you can then select a number to view a bit more information about that article.
 
 ## Installation
 
@@ -22,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To use this application, simply call the gem, then enter a number from 1-10 to choose which article you would like more information about.
 
 ## Development
 
